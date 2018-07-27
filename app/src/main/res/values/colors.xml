@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d9ea9</color>
+    <color name="colorPrimaryDark">#0d9ea9</color>
+    <color name="colorAccent">#000</color>
+    <color name="search_pagecolor">#cfafaf</color>
+    <color name="blue">#FF0AEDFD</color>
+    <color name="red">#F26269</color>
+    <color name="green">#22B14c</color>
+    <color name="ash">#c3c3c3</color>
+    <color name="viewBg">#2482c9</color>
+    <color name="album_title">#4c4c4c</color>
+</resources>

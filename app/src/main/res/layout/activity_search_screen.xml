@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#e8f3f9"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="248dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Search Labours"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toTopOf="@+id/spinner_category"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <Spinner
+                android:id="@+id/spinner_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="29dp"
+                android:entries="@array/category_array"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@+id/spinner_district"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                tools:ignore="MissingConstraints">
+
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinner_district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:entries="@array/district_array"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@+id/spinner_subdistrict"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_category"
+                tools:ignore="MissingConstraints">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinner_subdistrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:textAlignment="center"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_district"
+                tools:ignore="MissingConstraints"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="200dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/search_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_subdistrict"
+                tools:ignore="MissingConstraints,NotSibling">
+
+
+                <RadioButton
+                    android:id="@+id/radio_worker"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/radio_contractor"
+
+                    android:text="@string/worker" />
+
+                <RadioButton
+                    android:id="@+id/radio_contractor"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/radio_worker"
+                    android:text="@string/contractor" />
+
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/buttonstylerround"
+                android:text="search"
+                android:textColor="#faf7f7"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

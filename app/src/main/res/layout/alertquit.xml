@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="285dp">
+
+        <TextView
+            android:background="#02c6fc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="kOOpa"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp"
+            android:gravity="center"
+            android:text="Do you Realy want to exit????"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="465dp">
+
+            <Button
+                android:background="@drawable/boarderstyle"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+
+                />
+
+            <Button
+                android:background="@drawable/boarderstyle"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="exit" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

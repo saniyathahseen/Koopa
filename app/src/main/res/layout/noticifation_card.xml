@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:background="#f1efef">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="4dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nTV1"
+            android:layout_width="150sp"
+            android:layout_height="36dp"
+            android:text="Work site"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_gravity="center"
+
+            android:id="@+id/tvsite"
+             />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/nTVdate"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:text="Name of the user"
+            android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"
+                android:id="@+id/tvname"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:text="Date of work"
+            android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:id="@+id/tvdate"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/baccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="ACCEPT"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/bregect"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="REJECT" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

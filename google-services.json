@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "923755456056",
+    "firebase_url": "https://koopa-87729.firebaseio.com",
+    "project_id": "koopa-87729",
+    "storage_bucket": "koopa-87729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923755456056:android:d1d484a5d5247fa1",
+        "android_client_info": {
+          "package_name": "com.android.koopa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923755456056-inhn1odopt8rcstc9veslurvkhe5j5v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "9edf2fa8077d0438dc57a65b4a92a3cb0965f5bc"
+          }
+        },
+        {
+          "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC7cZcsbzGmdee-Dr6LBaQFPC4uECJgqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

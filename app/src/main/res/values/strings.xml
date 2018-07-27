@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">kOOpa</string>
+
+    <string-array name="district_array">
+        <item>Choose district</item>
+        <item>Kasargod</item>
+        <item>Kannur</item>
+        <item>Kozhikode</item>
+        <item>Malappuram</item>
+        <item>Wayanad</item>
+        <item>Thrissur</item>
+        <item>Palakkad</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Kottayam</item>
+        <item>Alappuzha</item>
+        <item>Pathanamthitta</item>
+        <item>Kollam</item>
+        <item>Thiruvanandapuram</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>choose category</item>
+        <item>Carpenter</item>
+        <item>Coconut Tree Climber</item>
+        <item>Electrician</item>
+        <item>Farmer</item>
+        <item>HomeNurse</item>
+        <item>Mehandi Designer</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+        <item>Constrution Work</item>
+
+        <item>Tapping Worker</item>
+        <item>Other</item>
+    </string-array>
+    <string name="numberOfWorkers">number of workers under</string>
+    <string-array name="number_of_worker">
+        <item>-Select No of Workers-</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="tagline">A repository of coolie workers</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_screen">Search_screen</string>
+
+
+    <string-array name="jobCategory">
+        <item>Choose job Category</item>
+        <item>Carpenter</item>
+        <item>Coconut Tree Climber</item>
+        <item>Electrician</item>
+        <item>Farmer</item>
+        <item>HomeNurse</item>
+        <item>Mehandi Design</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+        <item>Tapping Worker</item>
+
+
+    </string-array>
+
+
+    <string name="title_activity_search_result">Search_result</string>
+
+
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="District">
+        <item>Choose District</item>
+        <item>Thiruvananthapuram</item>
+        <item>Kollam</item>
+        <item>Kottayam</item>
+
+        <item>Pathanamthitta</item>
+        <item>Idukki</item>
+        <item>Kottayam</item>
+
+        <item>Ernakulam</item>
+        <item>Alappuzha</item>
+        <item>Thrissur</item>
+        <item>Palakkad</item>
+
+        <item>Malappuram</item>
+        <item>Wayanad</item>
+        <item>Kozhikode</item>
+        <item>Kannur</item>
+        <item>Kasaragod </item>
+    </string-array>
+    <string-array name="wagesarray">
+        <item>Wages</item>
+        <item>100-200</item>
+        <item>200-300</item>
+        <item>300-400</item>
+        <item>400-500</item>
+        <item>500-700 </item>
+    </string-array>
+    <string-array name="Ratings">
+        <item>Ratings</item>
+        <item>*****</item>
+        <item>****</item>
+        <item>***</item>
+        <item>**</item>
+        <item>* </item>
+    </string-array>
+    <string-array name="Thaluk_kasargod">
+        <item>choose Thaluk</item>
+        <item>Kasargod</item>
+        <item>Manjeswaram</item>
+        <item>Vellarikkundu</item>
+        <item>Hosdurg</item>
+    </string-array>
+    <string-array name="Thaluk_kozhikode">
+        <item>choose Thaluk</item>
+        <item>Vadakara</item>
+        <item>Koylandy</item>
+        <item>Thamarasery</item>
+        <item>Kozhikode</item>
+    </string-array>
+    <string-array name="Thaluk_wayanad">
+        <item>choose Thaluk</item>
+        <item>Kalppata</item>\
+        <item>Sulthanbathery</item>
+        <item>Mananthavady</item>
+    </string-array>
+    <string-array name="Thaluk_malappuram">
+        <item>choose Thaluk</item>
+        <item>Ponnani</item>
+        <item>Eranad</item>
+        <item>Tirur</item>
+        <item>Tiroorangadi</item>
+        <item>Kondotty</item>
+        <item>Nilambur</item>
+        <item>Perinthalmanna</item>
+    </string-array>
+    <string-array name="Thaluk_alappuzha">
+        <item>Choose Thaluk</item>
+        <item>Ambalapuzha</item>
+        <item>Chengannur</item>
+        <item>Cherthala</item>
+
+        <item>Karthikappally</item>
+        <item>Kuttanad</item>
+        <item>Mavelikkara</item>
+    </string-array>
+    <string-array name="Thaluk_Ernamkulam">
+        <item>Choose Thaluk</item>
+        <item>Aluva</item>
+        <item>Kochi</item>
+        <item>Kothamangalam</item>
+        <item>Muvattupuzha</item>
+        <item>North Paravu</item>
+        <item>Kunnathunad</item>
+
+
+    </string-array>
+    <string-array name="Thaluk_idukki">
+        <item>Choose Thaluk</item>
+        <item>Devikulam</item>
+        <item>Peermade</item>
+        <item>Udumbanchola</item>
+        <item>Idukki</item>
+        <item>Thodupuzha</item>
+    </string-array>
+
+
+    <string-array name="Thaluk_kannur">
+        <item>Choose subdistrict</item>
+        <item>Kannur</item>
+        <item>Thalassery</item>
+        <item>Thalipparambu</item>
+        <item>Iritty</item>
+
+    </string-array>
+    <string-array name="Thaluk_palakkad">
+        <item>Choose subdistrict</item>
+        <item>Ottappalam</item>
+        <item>Palakkad</item>
+        <item>Alathur</item>
+        <item>Chittur</item>
+        <item>Mannarkad</item>
+    </string-array>
+    <string-array name="Thaluk_thissur">
+        <item>Choose subdistrict</item>
+        <item>Chalakkudy</item>
+        <item>Kodungallur</item>
+        <item>Mukundhapuram</item>
+        <item>Thrissur</item>
+        <item>Chavakkad</item>
+        <item>Kunnamkkulam</item>
+        <item>Vadakkanchery</item>
+    </string-array>
+    <string-array name="Thaluk_kottayam">
+        <item>Choose subdistrict</item>
+        <item>Changanassery</item>
+        <item>Kottayam</item>
+        <item>Vaikom</item>
+        <item>Meenachil</item>
+        <item>Kanjirappally</item>
+    </string-array>
+    <string-array name="Thaluk_pathanamthitta">
+        <item>Choose subdistrict</item>
+        <item>Adoor</item>
+        <item>konni</item>
+        <item>Kozhanchery</item>
+        <item>Ranni</item>
+        <item>Mallappally</item>
+        <item>Thiruvalla</item>
+    </string-array>
+    <string-array name="Thaluk_kollam">
+        <item>Choose subdistrict</item>
+        <item>Kollam</item>
+        <item>Kunnathoor</item>
+        <item>Karunagappally</item>
+        <item>Kottarakkara</item>
+        <item>Punalur</item>
+        <item>Pathanapuram</item>
+    </string-array>
+    <string-array name="Thaluk_thiruvanandapuram">
+        <item>Choose subdistrict</item>
+        <item>Varkkala</item>
+        <item>Chirayankkeezhu</item>
+        <item>Thiruvanandapuram</item>
+        <item>Neduvangadu</item>
+        <item>Neyyattinkara</item>
+        <item>Kattakkada</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Post</string>
+    <string name="title_activity_tabhome">Notification</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_testtab_activity">TESTtabACTIVITY</string>
+    <string name="registration">Registration</string>
+    <string name="who_you_are">Who you are:</string>
+    <string name="contractor">Contractor</string>
+    <string name="worker">Worker</string>
+    <string name="user">User</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="adhaar_no">Adhaar No</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">kOOpa</string>
+    <string name="nav_header_subtitle">a repository of coolie workers</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="district_prompt">Select a District</string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_3">Tab 3</string>
+
+</resources>

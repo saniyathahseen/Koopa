@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "923755456056",
+    "firebase_url": "https://koopa-87729.firebaseio.com",
+    "project_id": "koopa-87729",
+    "storage_bucket": "koopa-87729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923755456056:android:d1d484a5d5247fa1",
+        "android_client_info": {
+          "package_name": "com.android.koopa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923755456056-inhn1odopt8rcstc9veslurvkhe5j5v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "9edf2fa8077d0438dc57a65b4a92a3cb0965f5bc"
+          }
+        },
+        {
+          "client_id": "923755456056-ep789qtsiihfqu219kpjauqfrfa1e3d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "288e4340b50682d1a81c63c628391f2d670cd5a6"
+          }
+        },
+        {
+          "client_id": "923755456056-lq9c96dc3kevrdan73pbslu873b8tmeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "161464c8665eda102f210fcf3c45ac0cfd68b74c"
+          }
+        },
+        {
+          "client_id": "923755456056-8oqm7rm9607oh6sokdqkthes7mhlloh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "21d8fecf14ab69856d37f85fd36fda8d35a4807f"
+          }
+        },
+        {
+          "client_id": "923755456056-hn1p8vja2rclkgm0p8e8qf23r3076i6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "f695684199758b02f1e22dc5f746b2ab052d3e9c"
+          }
+        },
+        {
+          "client_id": "923755456056-gv9hakao1f2fqbifcsnvaf08kqk5lhm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "e22d56c08ca9ba9bcefd20f8ce36ba4a80f37ad5"
+          }
+        },
+        {
+          "client_id": "923755456056-g5eeg8c8n8a4991129sf64cvs0qoi6ur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "fbf74090d5bb0125fca49090d848c7ff0731a20b"
+          }
+        },
+        {
+          "client_id": "923755456056-rghn12i6v46qvph9tknd540b1ijl5p73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.koopa",
+            "certificate_hash": "60f276e45b9eb33651a14bb37bffee7abab98f3d"
+          }
+        },
+        {
+          "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC7cZcsbzGmdee-Dr6LBaQFPC4uECJgqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923755456056:android:4fcdac1777a6f9d9",
+        "android_client_info": {
+          "package_name": "com.example.user.koopademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923755456056-net3kgt2oi376tojev2r45jjru8rk6rb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.koopademo",
+            "certificate_hash": "5fb3a1749fa0e774874899b042cb1157a9828dc6"
+          }
+        },
+        {
+          "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC7cZcsbzGmdee-Dr6LBaQFPC4uECJgqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923755456056-slb5nnn5df5sahjsrj5ri22r77eetmoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_margin="10sp"
+
+     >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nTV1"
+                android:layout_width="150sp"
+                android:layout_height="36dp"
+                android:text="Work site"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_gravity="center"
+
+                android:id="@+id/tv1site"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/nTVdate"
+                android:layout_width="wrap_content"
+                android:layout_height="35sp"
+                android:text="Name of the worker"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"
+                android:id="@+id/tv1name"
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="150sp"
+                android:layout_height="35sp"
+                android:text="Date of work"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:id="@+id/tv1date"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv11status"
+                android:layout_width="150sp"
+                android:layout_height="35sp"
+
+                android:layout_marginLeft="20sp"
+                android:text="Status"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv1status"
+                android:layout_width="150sp"
+                android:layout_height="35sp"
+                android:layout_marginLeft="120sp"
+                android:text=""
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

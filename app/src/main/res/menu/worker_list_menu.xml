@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/it1"
+        android:orderInCategory="101"
+        android:title="View Profile" />
+    <item
+            android:id="@+id/it2"
+            android:orderInCategory="102"
+            android:title="Add to favourite" />
+
+</menu>

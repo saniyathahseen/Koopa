@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Registration"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Who you are"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/contractorRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:baselineAligned="false"
+            android:text="Contractor"
+            tools:ignore="OnClick" />
+
+        <RadioButton
+            android:id="@+id/workerRadio"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="Worker"
+            tools:ignore="OnClick" />
+
+        <RadioButton
+            android:id="@+id/userRadio"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="User" />
+
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_marginTop="10sp"
+
+        android:layout_below="@+id/radioGroup"
+
+        android:layout_width="match_parent"
+        android:layout_height="350sp">
+        <RelativeLayout
+            android:id="@+id/contractorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="126dp"
+                android:layout_height="106dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="ProfileImageClick"
+                android:visibility="visible"
+                app:srcCompat="@drawable/profile" />
+
+            <LinearLayout
+                android:layout_below="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:scrollbars="vertical">
+
+
+                <EditText
+                    android:layout_marginTop="10sp"
+                   android:gravity="center"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Example@gmail.com"
+                    android:inputType="textPersonName"
+                    android:visibility="visible" />
+
+
+                <Spinner
+
+                    android:id="@+id/spinner_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:entries="@array/category_array"
+
+                    android:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/spinner_district"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:entries="@array/district_array"
+                    android:prompt="@string/district_prompt"
+                    android:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/spinner_subdistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="visible" />
+
+                <Spinner
+                    android:id="@+id/spinner_numberOfWorker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:entries="@array/number_of_worker"
+                    android:prompt="@string/numberOfWorkers"
+                    android:visibility="visible" />
+
+                <EditText
+                    android:gravity="center"
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Enter Your Name"
+                    android:inputType="text" />
+
+                <EditText
+                    android:gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:inputType="textPassword"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter password"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <EditText
+                    android:layout_marginTop="10sp"
+
+                    android:id="@+id/renter_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Re enter password" />
+                <Button
+                    android:layout_marginTop="30sp"
+                    android:id="@+id/submitButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyler"
+                    android:text="@string/submit"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+
+
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookingSchedulepage">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textUri"
+        android:text="To book your worker please complete the following details"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dateet"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignStart="@+id/placeet"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="dd/mm/yy"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/placeet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/placeet"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:hint="Enter your work site"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginEnd="59dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text=" Date :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/dateet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/placeet"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="10dp"
+        android:text="Work site :"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/bconform"
+        app:layout_constraintEnd_toStartOf="@+id/placeet"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.463"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/bcancel"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:background="@drawable/buttonstyler"
+        android:text="Cancel"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bconform" />
+
+    <Button
+        android:textColor="#ffff"
+        android:id="@+id/bconform"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/buttonstyler"
+        android:text="Conform"
+        app:layout_constraintBottom_toTopOf="@+id/bcancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeet" />
+
+
+
+</android.support.constraint.ConstraintLayout>

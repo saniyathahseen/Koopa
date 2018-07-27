@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.koopa.HomeUser1">
+    <item
+        android:id="@+id/passhome"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_register"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/signoutoption"
+        android:orderInCategory="100"
+        android:title="Sign out"
+        app:showAsAction="never" />
+
+
+</menu>
